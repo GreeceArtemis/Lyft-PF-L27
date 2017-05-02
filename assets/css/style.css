@@ -197,3 +197,40 @@ padding-top: 50px;
   left: 0;
   top: 0;
 }
+footer{
+  background-color: #333447;
+  color: white;
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+.col{
+  display: inline-block;
+  width: 150px;
+  margin: 10px 20px;
+  height: 200px;
+}
+.imagenpublicidad img{
+  width: 100px;
+  margin: 15px 5px;
+  height: 30px;
+
+}
+.redes{
+  display: inline-block;
+  border-radius: 50%;
+
+}
+.redesSociales{
+  margin: 30px ;
+  color: white;
+}
+.linea{
+  text-align: center;
+  width: 300px;
+  background-color: white;
+  height: 5px;
+  padding: 0px 14%;
+  position: absolute;
+  left: 327px;
+}
