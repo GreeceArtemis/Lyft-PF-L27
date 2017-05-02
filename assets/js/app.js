@@ -34,9 +34,8 @@ var phoneclick=document.getElementById("phone");
 phoneclick.addEventListener("click",function(){
   document.getElementsByClassName("moredate")[0].style.display="block";
   document.getElementsByClassName("datePhone")[0].style.height="410px"
-})
 
-//window.onload=function(){
+
   var phone=document.getElementById("phone").value;
   var name=document.getElementById("name").value;
   var email=document.getElementById("email").value;
@@ -66,3 +65,4 @@ var soloNumeros = function(e){
 phone.onkeypress=soloNumeros;
 name.onkeypress=soloLetras;
 city.onkeypress=soloLetras;
+})

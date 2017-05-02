@@ -30,11 +30,11 @@
         <h1>INTO MONEY</h1>
         <h4>SIGN UP DRIVE WITH LYFT.</h4>
         <form class="formValidar" action="index.html" method="post">
-          <div id "phonec"class="dateform"><input id="phone"class="sinBorde" type="text" placeholder="Phone number" required><span></span></div>
+          <div id "phonec"class="dateform"><input id="phone"class="sinBorde" type="text" placeholder="Phone number"pattern="^[9][0-9]{8}$ required><span></span></div>
           <div class="moredate">
-            <div class="dateform"><input id="name"class="sinBorde" type="text" placeholder="Name" required><span></span></div>
+            <div class="dateform"><input id="name"class="sinBorde" type="text" placeholder="Name" pattern="^([A-Z]{1}[a-z]+[\s]*)+$"   required><span></span></div>
             <div class="dateform"><input id="email"class="sinBorde" type="email" placeholder="Email" required><span></span></div>
-            <div class="dateform"><input id="city"class="sinBorde" type="text" placeholder="City" required><span></span></div>
+            <div class="dateform"><input id="city"class="sinBorde" type="text" placeholder="City" pattern="^([A-Z]{1}[a-z]+[\s]*)+$"  required><span></span></div>
 
           </div>
           <div><button class="buttonDriver" type="submit">Become a driver</button>
